@@ -75,17 +75,17 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/about' | '/contact' | '/portfolio' | '/services' | '/sitemap.xml'
+  '/' | '/about' | '/contact' | '/portfolio' | '/services' | '/sitemap.xml'
   fileRoutesByTo: FileRoutesByTo
   to: '/' | '/about' | '/contact' | '/portfolio' | '/services' | '/sitemap.xml'
   id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/contact'
-    | '/portfolio'
-    | '/services'
-    | '/sitemap.xml'
+  | '__root__'
+  | '/'
+  | '/about'
+  | '/contact'
+  | '/portfolio'
+  | '/services'
+  | '/sitemap.xml'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
